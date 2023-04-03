@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="@dimen/spacing_mlarge"
+                    android:layout_marginRight="@dimen/spacing_mlarge"
+                    android:src="@drawable/shape_circle"
+                    android:tint="@color/green_300" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="70dp"
+                        android:layout_height="@dimen/spacing_middle"
+                        android:background="@color/green_300" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/spacing_middle"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:background="@color/green_300" />
+
+                    <View
+                        android:layout_width="40dp"
+                        android:layout_height="@dimen/spacing_middle"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:background="@color/green_300" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="@dimen/spacing_mlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:src="@drawable/shape_circle"
+                    android:tint="@color/green_300" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_height="@dimen/spacing_middle"
+                        android:background="@color/green_300" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/spacing_middle"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:background="@color/green_300" />
+
+                    <View
+                        android:layout_width="40dp"
+                        android:layout_height="@dimen/spacing_middle"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:background="@color/green_300" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/noDataTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/green_300"
+                android:textSize="18dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

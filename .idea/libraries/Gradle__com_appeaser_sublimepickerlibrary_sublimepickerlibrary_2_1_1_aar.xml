@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b2332d457f47f13017158aea80287a6/jetified-sublimepickerlibrary-2.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b2332d457f47f13017158aea80287a6/jetified-sublimepickerlibrary-2.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b2332d457f47f13017158aea80287a6/jetified-sublimepickerlibrary-2.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.appeaser.sublimepickerlibrary/sublimepickerlibrary/2.1.1/dd59b5a37bc4ecd9070cc0ec1404cb8db1dedc0/sublimepickerlibrary-2.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.appeaser.sublimepickerlibrary/sublimepickerlibrary/2.1.1/db1f84aa6c5ffc0f222bdd2eb163c2ac5f1bb9f6/sublimepickerlibrary-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
